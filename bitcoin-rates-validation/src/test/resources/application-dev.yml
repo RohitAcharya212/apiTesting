@@ -1,0 +1,4 @@
+journey:
+  url: https://api.coindesk.com/v1/
+  path: bpi/currentprice.json
+  payloadType: JSON

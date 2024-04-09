@@ -1,0 +1,7 @@
+spring:
+  config:
+    import: "optional:classpath:core-properties.yml"
+
+journey:
+  path: YourServiceEndpoint/public
+  payloadType: JSON # Use either JSON or XML (both uppercase)
