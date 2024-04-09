@@ -6,7 +6,7 @@ Feature: This feature covers the happy path scenarios for the Bitcoin rates vali
     Then a HTTP status code 200 is returned
     And the response content type should be "application/json"
     And the currency should be Bitcoin
-    And the rates for currency <Currency> are not null
+    And the rates for currency "<Currency>" are not null
 
     Examples:
       | Currency |
